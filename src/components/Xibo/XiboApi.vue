@@ -54,7 +54,7 @@ export default {
     {
       axios({
         method: 'GET',
-        url: 'http://192.168.178.82/api/library',
+        url: 'http://localhost/api/library',
         mode: 'no-cors',
         headers: {
           'Authorization': 'Bearer XtDVSpCe9w35SZbpmALL7UrW0JVXY1aQ4twgsB0O',
