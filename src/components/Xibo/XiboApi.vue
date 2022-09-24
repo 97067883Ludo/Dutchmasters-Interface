@@ -32,7 +32,9 @@ export default {
         method: 'post',
         url: 'http://192.168.178.82/api/authorize/access_token',
         data: credentials,
-        headers: { 'Content-Type': 'multipart/form-data'  },
+        headers: { 'Content-Type': 'multipart/form-data',
+
+        },
       }).then((response) => {
         this.access_token = response.data.access_token;
         if (this.access_token){
@@ -54,11 +56,10 @@ export default {
     {
       axios({
         method: 'GET',
-        url: 'http://localhost/api/library',
-        mode: 'no-cors',
+        url: 'http://192.168.178.82/api/library',
         headers: {
           'Authorization': 'Bearer XtDVSpCe9w35SZbpmALL7UrW0JVXY1aQ4twgsB0O',
-          'Content-Type': 'application/json'
+          'Content-Type': ''
         }
       })
        .then((response) => {
