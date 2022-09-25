@@ -59,7 +59,6 @@ export default {
         url: 'http://192.168.178.82/api/library',
         headers: {
           'Authorization': 'Bearer XtDVSpCe9w35SZbpmALL7UrW0JVXY1aQ4twgsB0O',
-          'Content-Type': ''
         }
       })
        .then((response) => {
