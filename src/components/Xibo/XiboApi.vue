@@ -17,7 +17,7 @@ export default {
   },
   mounted() {
 
-    this.Authenticate();
+    //this.Authenticate();
     // this.getAllLibraryItems();
 
   },
