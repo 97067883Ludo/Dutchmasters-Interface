@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-full pl-5 pt-5 bg-gray-300">
+  <div class="min-h-full pl-5 pt-5 bg-gray-300 flex flex-col justify-between">
     <div>
       <h1 class="text-3xl bold text-slate-600">Dutchmasters</h1>
       <h2 class="text-xl bold text-slate-600">Dashboard</h2>
@@ -11,7 +11,7 @@
         </RouterLink>
       </div>
     </div>
-    <div class="fixed bottom-5">
+    <div class="mb-5">
       <div class="text-xl p-1">
         {{ this.time }}
       </div>
